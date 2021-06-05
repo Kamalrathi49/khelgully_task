@@ -1,0 +1,83 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.table {
+  display: flex;
+  justify-content: center;
+  width: 850px;
+  border: red 2px solid;
+  border-radius: 10px;
+  background-color: #282828;
+
+  @media (min-width: 599px) and (max-width: 767px) {
+    width: 400px;
+  }
+}
+.styled-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 800px;
+
+  @media (min-width: 599px) and (max-width: 767px) {
+    width: 400px;
+    margin: auto;
+    min-width: 300px;
+  }
+}
+
+.styled-table thead tr {
+  border: none;
+  color: white;
+  text-align: left;
+
+  @media (min-width: 599px) and (max-width: 767px) {
+    max-width: 400px;
+  }
+}
+
+tbody,tr {
+  @media (min-width: 599px) and (max-width: 767px) {
+    width: 400px;
+  }
+}
+
+.styled-table th,
+.styled-table td {
+  padding: 4px 6px;
+
+  @media (min-width: 599px) and (max-width: 767px) {
+    width: 400px;
+  }
+}
+.stats {
+  margin-bottom: 10px;
+  background-color: black;
+  color: white;
+  @media (min-width: 599px) and (max-width: 767px) {
+    width: 400px;
+  }
+}
+
+.profile {
+  height: 35px;
+  width: 35px;
+  margin-right: 2px;
+  @media (min-width: 599px) and (max-width: 767px) {
+    width: 400px;
+    width: auto;
+    height: auto;
+  }
+}
+
+#profile {
+  display: flex;
+  flex-direction: row;
+  margin-left: 40px;
+  @media (min-width: 599px) and (max-width: 767px) {
+    width: 400px;
+  }
+}
